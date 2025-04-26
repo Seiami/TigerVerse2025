@@ -1,2 +1,2 @@
-Music Machine
-  A Mecha Rhythm Game
+# Music Machine
+A Mecha Rhythm Game
