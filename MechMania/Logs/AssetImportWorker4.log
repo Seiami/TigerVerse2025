@@ -4,7 +4,7 @@ OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32373 
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.45f1-x86_64\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ C:/Users/tucke/CompSciProjects/TigerVerse2025/MechMania
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-62101
+51674
 Successfully changed project path to: C:/Users/tucke/CompSciProjects/TigerVerse2025/MechMania
 C:/Users/tucke/CompSciProjects/TigerVerse2025/MechMania
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,15 +47,15 @@ C:/Users/tucke/CompSciProjects/TigerVerse2025/MechMania
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15400] Host "[IP] 100.113.180.114 [Port] 0 [Flags] 2 [Guid] 1606639869 [EditorId] 1606639869 [Version] 1048832 [Id] WindowsEditor(7,RRF-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [34060] Host "[IP] 100.113.180.114 [Port] 0 [Flags] 2 [Guid] 1632183387 [EditorId] 1632183387 [Version] 1048832 [Id] WindowsEditor(7,RRF-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15400] Host "[IP] 100.113.180.114 [Port] 0 [Flags] 2 [Guid] 1606639869 [EditorId] 1606639869 [Version] 1048832 [Id] WindowsEditor(7,RRF-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34060] Host "[IP] 100.113.180.114 [Port] 0 [Flags] 2 [Guid] 1632183387 [EditorId] 1632183387 [Version] 1048832 [Id] WindowsEditor(7,RRF-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 58.77 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 94.19 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.45f1 (0da89fac8e79)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1-x86_64/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/tucke/CompSciProjects/TigerVerse2025/MechMania/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -65,97 +65,93 @@ Direct3D:
     VRAM:     5921 MB
     Driver:   32.0.15.7283
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006780 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004597 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 600 ms
-Refreshing native plugins compatible for Editor in 46.55 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 40.11 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.149 seconds
+- Completed reload, in  0.477 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1150ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (477ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (988ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (82ms)
+			SetupTypeCache (78ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (847ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (201ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (674ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
+				RefreshPlugins (40ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007468 seconds.
+Registered in 0.006869 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 43.42 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 38.84 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
+- Completed reload, in  1.341 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1389ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1341ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1201ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (1162ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
+			SetupTypeCache (211ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (790ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (787ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (629ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (639ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.85 ms, found 9 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4455 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (47.4 KB). Loaded Objects now: 4919.
-Memory consumption went from 162.0 MB to 162.0 MB.
-Total: 3.189900 ms (FindLiveObjects: 0.253800 ms CreateObjectMapping: 0.069800 ms MarkObjects: 2.776700 ms  DeleteObjects: 0.088400 ms)
+Unloading 4469 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (47.4 KB). Loaded Objects now: 4931.
+Memory consumption went from 162.7 MB to 162.6 MB.
+Total: 3.640600 ms (FindLiveObjects: 0.250000 ms CreateObjectMapping: 0.089500 ms MarkObjects: 3.203900 ms  DeleteObjects: 0.095400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,286 +168,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1038651.025870 seconds.
-  path: Assets/Rhythm Game Tutorial/Music
-  artifactKey: Guid(7f15671c7f2f9f843bad2c61a436bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1058883.271675 seconds.
+  path: Assets/Rhythm Game Tutorial
+  artifactKey: Guid(cb776073f4c3a414cbe09a5890fb6d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Rhythm Game Tutorial/Music using Guid(7f15671c7f2f9f843bad2c61a436bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb5ae9915622f0a5a80322a1a6d83b8') in 0.009401 seconds 
+Start importing Assets/Rhythm Game Tutorial using Guid(cb776073f4c3a414cbe09a5890fb6d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5445772719bc58e1395ad4463d7d404b') in 0.015059 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.010881 seconds.
-  path: Assets/Rhythm Game Tutorial/Music/GamesPlusJames - Rhythm Tutorial (extended).wav
-  artifactKey: Guid(57ae641b652a9d44e8ab28ae2d67392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3.415638 seconds.
+  path: Assets/Rhythm Game Tutorial 1
+  artifactKey: Guid(652f423748005ab4fbf64ac62a62c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Rhythm Game Tutorial/Music/GamesPlusJames - Rhythm Tutorial (extended).wav using Guid(57ae641b652a9d44e8ab28ae2d67392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f75a2ab6176b480eaf584aea1235572') in 0.100627 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 209.219023 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(a5a1acf8c7ade4feeb4e6837518d1d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes using Guid(a5a1acf8c7ade4feeb4e6837518d1d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08347bbb42c1ba369aee3334edd4805') in 0.003795 seconds 
+Start importing Assets/Rhythm Game Tutorial 1 using Guid(652f423748005ab4fbf64ac62a62c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3282efce601291f89419795f26e1923e') in 0.002349 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.539320 seconds.
-  path: Assets/TerminatorHand
-  artifactKey: Guid(a51af09542e61e34e893865eefe831b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 2.338805 seconds.
+  path: Assets/Rhythm Game Tutorial 1/Scenes
+  artifactKey: Guid(06556e593c9ff164f84ecb71383d696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/TerminatorHand using Guid(a51af09542e61e34e893865eefe831b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2513adf033c77c4027bd0d56d892b82') in 0.002346 seconds 
+Start importing Assets/Rhythm Game Tutorial 1/Scenes using Guid(06556e593c9ff164f84ecb71383d696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231f64b686edb22b4ca1ccfbdaee14fe') in 0.002782 seconds 
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.893276 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(e90658b71af6d254488a00d24b9d7b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Textures using Guid(e90658b71af6d254488a00d24b9d7b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8331616cee4be8c1e419c0ee4b83665c') in 0.002139 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.845590 seconds.
-  path: Assets/XR
-  artifactKey: Guid(3fb9e22e85b9d4c8e81339b6d23e471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/XR using Guid(3fb9e22e85b9d4c8e81339b6d23e471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78a1c9f9706bd1a3fd86fdee7c0bea5') in 0.001553 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Registering precompiled user dll's ...
-Registered in 0.006357 seconds.
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Tests/Editor/LegacyInputHelpersEditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Tests/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.performance.profile-analyzer/Editor/Unity.Performance.Profile-Analyzer.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/OculusQuest/Editor/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Model/Model.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Editor/Unity.XR.Management.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Tests/Editor/Unity.XR.Interaction.Toolkit.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Runtime/Unity.XR.Interaction.Toolkit.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/MockRuntime/Unity.XR.OpenXR.Features.MockRuntime.asmdef)
-Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Mono.Reflection/Reflection.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/InputSystem/Unity.InputSystem.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/Editor/Unity.XR.Management.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/OculusQuest/Runtime/Unity.XR.OpenXR.Features.OculusQuestSupport.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/MetaQuest/Runtime/Unity.XR.OpenXR.Features.MetaQuestSupport.asmdef)
-Required property 'name' not set (Packages/com.unity.editorcoroutines/Editor/Unity.EditorCoroutines.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Tests/Editor/Unity.XR.OpenXR.Tests.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Editor/Unity.XR.CoreUtils.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/TestTooling/Unity.XR.TestSupport.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/Runtime/Unity.XR.Management.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Runtime/LegacyInputHelpers.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Editor/Unity.XR.OpenXR.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Tests/Runtime/Unity.XR.Interaction.Toolkit.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/MetaQuest/Editor/Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Runtime/Unity.XR.CoreUtils.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Editor/LegacyInputHelpersEditor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Runtime/Unity.XR.Management.asmdef)
-Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/Compatibility/Compatibility.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Tests/Runtime/Unity.XR.OpenXR.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Runtime/Unity.XR.OpenXR.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Editor/Unity.XR.Interaction.Toolkit.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/RuntimeDebugger/Unity.XR.OpenXR.Features.RuntimeDebugger.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/CodeCoverage.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/ConformanceAutomation/Unity.XR.OpenXR.Features.ConformanceAutomation.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/RuntimeDebugger/Editor/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.performance.profile-analyzer/Tests/Editor/Unity.Performance.Profile-Analyzer.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Tests/Editor/LegacyInputHelpersEditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Tests/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.performance.profile-analyzer/Editor/Unity.Performance.Profile-Analyzer.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/OculusQuest/Editor/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Model/Model.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Editor/Unity.XR.Management.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Tests/Editor/Unity.XR.Interaction.Toolkit.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Runtime/Unity.XR.Interaction.Toolkit.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/MockRuntime/Unity.XR.OpenXR.Features.MockRuntime.asmdef)
-Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Mono.Reflection/Reflection.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/InputSystem/Unity.InputSystem.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/Editor/Unity.XR.Management.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/OculusQuest/Runtime/Unity.XR.OpenXR.Features.OculusQuestSupport.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/MetaQuest/Runtime/Unity.XR.OpenXR.Features.MetaQuestSupport.asmdef)
-Required property 'name' not set (Packages/com.unity.editorcoroutines/Editor/Unity.EditorCoroutines.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Tests/Editor/Unity.XR.OpenXR.Tests.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Editor/Unity.XR.CoreUtils.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/TestTooling/Unity.XR.TestSupport.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/Runtime/Unity.XR.Management.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Runtime/LegacyInputHelpers.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Editor/Unity.XR.OpenXR.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Tests/Runtime/Unity.XR.Interaction.Toolkit.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/MetaQuest/Editor/Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Runtime/Unity.XR.CoreUtils.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Editor/LegacyInputHelpersEditor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Runtime/Unity.XR.Management.asmdef)
-Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/Compatibility/Compatibility.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Tests/Runtime/Unity.XR.OpenXR.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Runtime/Unity.XR.OpenXR.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Editor/Unity.XR.Interaction.Toolkit.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/RuntimeDebugger/Unity.XR.OpenXR.Features.RuntimeDebugger.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/CodeCoverage.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/ConformanceAutomation/Unity.XR.OpenXR.Features.ConformanceAutomation.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/RuntimeDebugger/Editor/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.performance.profile-analyzer/Tests/Editor/Unity.Performance.Profile-Analyzer.EditorTests.asmdef)
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 47.59 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Tests/Editor/LegacyInputHelpersEditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Tests/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.performance.profile-analyzer/Editor/Unity.Performance.Profile-Analyzer.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/OculusQuest/Editor/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Model/Model.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Editor/Unity.XR.Management.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Tests/Editor/Unity.XR.Interaction.Toolkit.Editor.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Runtime/Unity.XR.Interaction.Toolkit.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/MockRuntime/Unity.XR.OpenXR.Features.MockRuntime.asmdef)
-Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Mono.Reflection/Reflection.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/InputSystem/Unity.InputSystem.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/Editor/Unity.XR.Management.EditorTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/OculusQuest/Runtime/Unity.XR.OpenXR.Features.OculusQuestSupport.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/MetaQuest/Runtime/Unity.XR.OpenXR.Features.MetaQuestSupport.asmdef)
-Required property 'name' not set (Packages/com.unity.editorcoroutines/Editor/Unity.EditorCoroutines.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Tests/Editor/Unity.XR.OpenXR.Tests.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Editor/Unity.XR.CoreUtils.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/TestTooling/Unity.XR.TestSupport.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/Runtime/Unity.XR.Management.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Runtime/LegacyInputHelpers.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Editor/Unity.XR.OpenXR.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Tests/Runtime/Unity.XR.Interaction.Toolkit.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/MetaQuest/Editor/Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.core-utils/Runtime/Unity.XR.CoreUtils.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Editor/LegacyInputHelpersEditor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Runtime/Unity.XR.Management.asmdef)
-Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/Compatibility/Compatibility.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Tests/Runtime/Unity.XR.OpenXR.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.management/Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/Runtime/Unity.XR.OpenXR.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.interaction.toolkit/Editor/Unity.XR.Interaction.Toolkit.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/RuntimeDebugger/Unity.XR.OpenXR.Features.RuntimeDebugger.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef)
-Required property 'name' not set (Packages/com.unity.testtools.codecoverage/Editor/CodeCoverage.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/ConformanceAutomation/Unity.XR.OpenXR.Features.ConformanceAutomation.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef)
-Required property 'name' not set (Packages/com.unity.inputsystem/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
-Required property 'name' not set (Packages/com.unity.xr.openxr/RuntimeDebugger/Editor/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.asmdef)
-Required property 'name' not set (Packages/com.unity.performance.profile-analyzer/Tests/Editor/Unity.Performance.Profile-Analyzer.EditorTests.asmdef)
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.317 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1318ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1099ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (726ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (571ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.77 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4426 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 102 unused Assets / (22.9 KB). Loaded Objects now: 4885.
-Memory consumption went from 164.2 MB to 164.2 MB.
-Total: 3.313600 ms (FindLiveObjects: 0.616800 ms CreateObjectMapping: 0.108800 ms MarkObjects: 2.541200 ms  DeleteObjects: 0.045600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
