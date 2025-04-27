@@ -50,6 +50,22 @@ public class NoteObject : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
+    Debug.Log("OnTriggerEnter called with: " + other.gameObject.name);
+    if (other.tag == "Activator") {
+        canBePressed = true;
+        Debug.Log("canBePressed set to true");
+        }
+    }
+
+    private void OnTriggerExit(Collider other) {
+        Debug.Log("OnTriggerExit called with: " + other.gameObject.name);
+        if (other.tag == "Activator") {
+            canBePressed = false;
+            Debug.Log("canBePressed set to false");
+        }
+    }
+
+    /*private void OnTriggerEnter(Collider other) {
         if (other.tag == "Activatior") {
            canBePressed = true;
         }
@@ -61,5 +77,5 @@ public class NoteObject : MonoBehaviour
         }
         GameManager.instance.NoteMissed();
         Instantiate(missEffect, transform.position, missEffect.transform.rotation);
-    }
+    }*/
 }
