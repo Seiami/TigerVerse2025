@@ -46,6 +46,7 @@ public class NoteObject : MonoBehaviour
                 Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation);
                 GameManager.instance.PerfectHit();
             }
+            Destroy(gameObject);
         }
     }
 
@@ -62,6 +63,10 @@ public class NoteObject : MonoBehaviour
         if (other.tag == "Activator") {
             canBePressed = false;
             Debug.Log("canBePressed set to false");
+             GameManager.instance.NoteMissed();
+             gameObject.SetActive(false);
+            Instantiate(missEffect, transform.position, missEffect.transform.rotation);
+            Destroy(gameObject);
         }
     }
 
