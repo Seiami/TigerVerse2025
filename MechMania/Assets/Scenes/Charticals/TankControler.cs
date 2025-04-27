@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyControler : MonoBehaviour
+public class TankControler : MonoBehaviour
 {
     // Variables
     float speed = 7.5f;
@@ -12,11 +12,11 @@ public class EnemyControler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Vector3 peepee = new Vector3(0f,6.26f,-33.12f);
+        Vector3 peepee = new Vector3(0f,0f,-33.12f);
         Vector3 difs = transform.position - peepee;
         dydz = difs[1]/difs[2];
         dxdz = difs[0]/difs[2];
-        transform.eulerAngles = new Vector3(Mathf.Atan(difs[1]/difs[2])*(180/3.14f)-2,Mathf.Atan(difs[0]/difs[2])*(180/3.14f),0f);
+        transform.eulerAngles = new Vector3(-90f,Mathf.Atan(dxdz)*(180/3.14f),0f);
     }
 
     // Update is called once per frame
