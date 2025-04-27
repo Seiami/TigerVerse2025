@@ -12,7 +12,7 @@ public class TankControler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Vector3 peepee = new Vector3(0f,0f,-33.12f);
+        Vector3 peepee = new Vector3(9.947f,-0.096f,1.011845f);
         Vector3 difs = transform.position - peepee;
         dydz = difs[1]/difs[2];
         dxdz = difs[0]/difs[2];
