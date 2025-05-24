@@ -1,11 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-//https://www.youtube.com/watch?v=mAiQJoblHh4
-
-public class SceneChange : MonoBehaviour
+//https://www.youtube.com/watch?v=2BdgUgh_yxA
+public class QuitGame : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -19,8 +17,9 @@ public class SceneChange : MonoBehaviour
 
     }
 
-    public void ChangeScene()
+    public void quitGame()
     {
-        SceneManager.LoadScene("0 Start Scene");
+        Debug.Log("quit game");
+        Application.Quit();
     }
 }
