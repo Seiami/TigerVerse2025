@@ -8,6 +8,7 @@ public class BeatManager : MonoBehaviour
     [SerializeField] private float _bpm;
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private Intervals[] _intervals;
+    private int beatCount = 0;
 
     private void Update()
     {
@@ -38,5 +39,6 @@ public class Intervals
             _lastInterval = Mathf.FloorToInt(interval);
             _trigger.Invoke(); //Does the note action
         }
+        Debug.Log("Interval: " + _lastInterval);
     }
 }
