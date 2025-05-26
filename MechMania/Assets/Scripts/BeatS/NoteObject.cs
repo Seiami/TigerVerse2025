@@ -4,6 +4,9 @@ public class NoteObject : MonoBehaviour
 {
     public bool canBePressed;
     public KeyCode keyToPress;
+    public float time;
+    public float type;
+    public float duration;
 
     //Hit effects
     public GameObject hitEffect, goodEffect, perfectEffect, missEffect;
