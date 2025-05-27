@@ -12,23 +12,35 @@ public class BeatManager : MonoBehaviour
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private Intervals[] _intervals;
     static int index = 0; //Static index to keep track of the current note being processed
+    static bool processed = false;
 
     private void Start()
     {
-        ReadBeatMap.Instance.Read(); //Initialize the beat map
+        if (ReadBeatMap.Instance == null)
+        {
+            Debug.LogError("ERROR: Not creating beatmap.");
+            return; //Exit if the BeatMap has not been read
+        }
     }
 
     private void Update()
     {
-        index += 1; //Increment the index to process the next note
-        if (index >= ReadBeatMap.Instance._count)
+        if (processed) //Ensure note is printed before moving on to next
         {
-            index = 0; //Reset index if it exceeds the number of notes
+            index += 1; //Increment the index to process the next note
+            processed = false; //Reset processed flag
         }
-        foreach (Intervals interval in _intervals)
+        if (index >= ReadBeatMap.Instance.Count)
         {
-            float sampledTime = (_audioSource.timeSamples / (_audioSource.clip.frequency * interval.GetIntervalLength(_bpm))); //Gets time elapsed in intervals
-            interval.CheckForNewInterval(sampledTime, ReadBeatMap.Instance._notes[index][1], ReadBeatMap.Instance._notes[index][0]); //Check if we have crossed into a new interval
+            //index = 0; //Reset index if it exceeds the number of notes
+        }
+        else
+        {
+            foreach (Intervals interval in _intervals)
+            {
+                float sampledTime = (_audioSource.timeSamples / (_audioSource.clip.frequency * interval.GetIntervalLength(_bpm))); //Gets time elapsed in intervals
+                processed = interval.CheckForNewInterval(sampledTime, ReadBeatMap.Instance.Notes[index][1], ReadBeatMap.Instance.Notes[index][0]); //Check if we have crossed into a new interval
+            }
         }
     }
 }
@@ -45,23 +57,28 @@ public class Intervals
         return 60f / (bpm * _steps);
     }
 
-    public void CheckForNewInterval(float interval, float type, float time) //Checks if we have crossed into a new beat
+    public bool CheckForNewInterval(float interval, float type, float time) //Checks if we have crossed into a new beat
     {
+        bool proc = false; //processed
         //FloortoInt rounds DOWN to the nearest whole number
-        if (Mathf.FloorToInt(interval) != _lastInterval) //Check every whole number --> we have passed to a new beat if the number has changed
+        if (Mathf.FloorToInt((interval)) != _lastInterval) //Check every whole number --> we have passed to a new beat if the number has changed
         {
-            _lastInterval = Mathf.FloorToInt(interval);
-            Debug.Log("Interval: " + interval);
-            CheckForNoteType(_noteType, type, _lastInterval, time);
+            _lastInterval = Mathf.FloorToInt((interval));
+            Debug.Log("CHECK: New Interval: " + _lastInterval + " vs. Emit Beat: " + (time + 1)); //Log the values for debugging
+            //Debug.Log("Interval: " + interval);
+            //Check if the note type matches the interval type
+            if (_lastInterval == time + 1)
+            {
+                Debug.Log("CHECK: Read Type: " + type + " vs. Emitter Type: " + _noteType); //Log the note type for debugging
+                if (_noteType == type)
+                {
+                    Debug.Log("INVOKE: Spawn"); //Log the values for debugging
+                    _trigger.Invoke(); //Invoke the action if it matches
+                }
+                proc = true;
+            }
         }
+        return proc; //Return whether the note was processed
     }
-    
-    public void CheckForNoteType(float noteType, float type, float interval, float time)
-    {
-        //Check if the note type matches the interval type
-        if (_noteType == type && interval == time)
-        {
-            _trigger.Invoke(); //Invoke the action if it matches
-        }
-    }
+
 }

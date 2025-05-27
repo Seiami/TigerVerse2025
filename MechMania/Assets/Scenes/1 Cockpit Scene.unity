@@ -170,6 +170,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -288,6 +291,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -537,6 +543,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -655,6 +664,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -758,6 +770,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -989,6 +1004,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -1190,6 +1208,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -1392,6 +1413,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -1510,6 +1534,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -1726,6 +1753,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -1844,6 +1874,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -1962,6 +1995,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -2080,6 +2116,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -2198,6 +2237,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -2316,6 +2358,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -2434,6 +2479,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -2552,6 +2600,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -3598,6 +3649,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -3716,6 +3770,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -3834,6 +3891,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -4198,6 +4258,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -4365,6 +4428,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -4577,6 +4643,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -4778,6 +4847,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -5059,6 +5131,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -5391,6 +5466,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -5509,6 +5587,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -5627,6 +5708,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -5745,6 +5829,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -5943,6 +6030,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -6061,6 +6151,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -6262,6 +6355,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -6476,6 +6572,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -6678,6 +6777,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -6927,6 +7029,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -7061,6 +7166,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -7179,6 +7287,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -7249,134 +7360,6 @@ CapsuleCollider:
   m_Height: 0.63
   m_Direction: 0
   m_Center: {x: 0.0000004172325, y: 0, z: 0}
---- !u!1 &515992356
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 515992358}
-  - component: {fileID: 515992357}
-  m_Layer: 0
-  m_Name: Audio Track
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &515992357
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515992356}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!4 &515992358
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515992356}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &525509961
 GameObject:
   m_ObjectHideFlags: 0
@@ -7425,6 +7408,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -7623,6 +7609,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -7741,6 +7730,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -7859,6 +7851,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -7977,6 +7972,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -8175,6 +8173,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -8293,6 +8294,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -8491,6 +8495,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -8707,6 +8714,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -10116,6 +10126,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -10249,6 +10262,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -10367,6 +10383,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -10485,6 +10504,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -10779,6 +10801,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -11234,6 +11259,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -11337,6 +11365,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -11422,6 +11453,67 @@ CapsuleCollider:
   m_Height: 0.63
   m_Direction: 0
   m_Center: {x: 0, y: -0.00000017881393, z: 0}
+--- !u!1001 &821412820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5670923021131498678, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1613285536}
+    - target: {fileID: 5670923021829971867, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670923021829971867, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670923021829971867, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670923021829971867, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670923021829971867, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670923021829971867, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670923021829971867, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670923021829971867, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670923021829971867, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670923021829971867, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670923021829971867, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670923021829971870, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: m_Name
+      value: NoteEmitter
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
 --- !u!1 &824171049
 GameObject:
   m_ObjectHideFlags: 0
@@ -11554,6 +11646,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -11672,6 +11767,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -11790,6 +11888,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -11908,6 +12009,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -13304,6 +13408,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -13422,6 +13529,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -13540,6 +13650,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -13738,6 +13851,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -13856,6 +13972,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -13959,6 +14078,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -14190,6 +14312,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -14308,6 +14433,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -14426,6 +14554,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -14529,6 +14660,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -14662,6 +14796,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -14780,6 +14917,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -15061,6 +15201,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -15194,6 +15337,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -15312,6 +15458,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -15430,6 +15579,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -15548,6 +15700,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -15666,6 +15821,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -15867,6 +16025,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -15985,6 +16146,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -16183,6 +16347,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -16637,7 +16804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1626696878725603863, guid: cd5cd2c099ead2b45aa3e937985806c1, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1626696878725603863, guid: cd5cd2c099ead2b45aa3e937985806c1, type: 3}
       propertyPath: m_LocalScale.x
@@ -16749,6 +16916,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -16867,6 +17037,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -16985,6 +17158,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -17186,6 +17362,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -17304,6 +17483,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -17582,6 +17764,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -17780,6 +17965,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -17898,6 +18086,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -18016,6 +18207,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -18150,6 +18344,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -18460,6 +18657,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -18578,6 +18778,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -18681,6 +18884,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -19162,6 +19368,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -19280,6 +19489,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -19398,6 +19610,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -19516,6 +19731,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -24398,75 +24616,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 179.492, z: 0}
---- !u!1 &1497999347
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1497999349}
-  - component: {fileID: 1497999348}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1497999348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497999347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c0d15679bb82ba428cb04fc5e950a76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theMusic: {fileID: 1613285536}
-  startPlaying: 0
-  theBS: {fileID: 872049291}
-  currentScore: 0
-  scorePerNote: 100
-  scorePerGoodNote: 125
-  scorePerPerfectNote: 150
-  totalNotes: 0
-  normalHits: 0
-  goodHits: 0
-  perfectHits: 0
-  missedHits: 0
-  resultsScreen: {fileID: 766832845}
-  percentHitText: {fileID: 1903861623}
-  normalsText: {fileID: 1991264647}
-  goodsText: {fileID: 1982387921}
-  perfectsText: {fileID: 723331160}
-  missesText: {fileID: 325538177}
-  rankText: {fileID: 1294892955}
-  finalScoreText: {fileID: 745663033}
-  scoreText: {fileID: 1791990394}
-  multiText: {fileID: 2046179001}
-  currentMultiplier: 1
-  multiplierTracker: 0
-  multiplierThresholds: 040000000c00000010000000
---- !u!4 &1497999349
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497999347}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1509418474
 GameObject:
   m_ObjectHideFlags: 0
@@ -24500,6 +24649,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -24716,6 +24868,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -24917,6 +25072,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -25115,6 +25273,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -25233,6 +25394,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -25336,6 +25500,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -25469,6 +25636,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -25587,6 +25757,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -25705,6 +25878,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -26008,6 +26184,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -26088,7 +26267,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1613285537}
   - component: {fileID: 1613285536}
-  - component: {fileID: 1613285538}
   m_Layer: 0
   m_Name: mechaMusicfinal
   m_TagString: Untagged
@@ -26207,25 +26385,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!320 &1613285538
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613285535}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 4a4f23a50af8f15419761066e1dc0cfd, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 221501091945118253, guid: 4a4f23a50af8f15419761066e1dc0cfd, type: 2}
-    value: {fileID: 1796784457}
-  m_ExposedReferences:
-    m_References: []
 --- !u!1 &1613597175
 GameObject:
   m_ObjectHideFlags: 0
@@ -26274,6 +26433,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -26392,6 +26554,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -26510,6 +26675,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -26696,6 +26864,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -26848,6 +27019,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -26966,6 +27140,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -27084,6 +27261,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -27271,7 +27451,7 @@ Transform:
   - {fileID: 719119368}
   - {fileID: 198065766}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1756004213
 GameObject:
@@ -27321,6 +27501,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -27439,6 +27622,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -27557,6 +27743,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -27675,6 +27864,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -27793,6 +27985,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -27911,6 +28106,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -28150,7 +28348,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8841422738568278764, guid: b09d33c8b7830a34d89d176d138cba96, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8841422738568278764, guid: b09d33c8b7830a34d89d176d138cba96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28296,6 +28494,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -28399,6 +28600,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -28616,6 +28820,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -28734,6 +28941,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -29280,6 +29490,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -29398,6 +29611,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -29731,6 +29947,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -29929,6 +30148,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -30047,6 +30269,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -30245,6 +30470,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -30459,6 +30687,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -30737,6 +30968,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -30855,6 +31089,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -30973,6 +31210,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -31171,6 +31411,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -31289,6 +31532,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -31392,6 +31638,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -31525,6 +31774,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -31643,6 +31895,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 275
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -31796,6 +32051,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 273
+  time: 0
+  type: 0
+  duration: 0
   hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
   goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
   perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
@@ -33331,6 +33589,111 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &2643382857079344437
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2643382858275351232, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643382858275351232, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643382858275351232, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643382858275351232, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643382858275351232, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643382858275351232, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643382858275351232, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643382858275351232, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643382858275351232, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643382858275351232, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643382858275351232, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: theBS
+      value: 
+      objectReference: {fileID: 872049291}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: rankText
+      value: 
+      objectReference: {fileID: 1294892955}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: theMusic
+      value: 
+      objectReference: {fileID: 1613285536}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: goodsText
+      value: 
+      objectReference: {fileID: 1982387921}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: multiText
+      value: 
+      objectReference: {fileID: 2046179001}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1791990394}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: missesText
+      value: 
+      objectReference: {fileID: 325538177}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: normalsText
+      value: 
+      objectReference: {fileID: 1991264647}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: perfectsText
+      value: 
+      objectReference: {fileID: 723331160}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: resultsScreen
+      value: 
+      objectReference: {fileID: 766832845}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: finalScoreText
+      value: 
+      objectReference: {fileID: 745663033}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: percentHitText
+      value: 
+      objectReference: {fileID: 1903861623}
+    - target: {fileID: 2643382858275351238, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91901c8866972144eaf994fe877b0028, type: 3}
 --- !u!33 &2674564422311797853
 MeshFilter:
   m_ObjectHideFlags: 0
