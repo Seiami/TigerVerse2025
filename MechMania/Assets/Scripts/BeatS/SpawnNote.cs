@@ -13,7 +13,7 @@ public class SpawnNote : MonoBehaviour
 
     public void Spawn()
     {                                                          //Quaternion.identity
-        var note = Instantiate(notePrefab, spawnPoint.position, Quaternion.identity); //Spawns the note at the spawn point (quaternion.identity means no rotation)
+        GameObject note = Instantiate(notePrefab, spawnPoint.position, Quaternion.identity); //Spawns the note at the spawn point (quaternion.identity means no rotation)
         //note.AddComponent<Rigidbody>(); //Adds a rigidbody to the note
         note.transform.SetParent(spawnPoint);
 

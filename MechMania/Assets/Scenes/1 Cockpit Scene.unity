@@ -33641,7 +33641,23 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: upBS
+      value: 
+      objectReference: {fileID: 872049291}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
       propertyPath: theBS
+      value: 
+      objectReference: {fileID: 872049291}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: downBS
+      value: 
+      objectReference: {fileID: 872049291}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: leftBS
+      value: 
+      objectReference: {fileID: 872049291}
+    - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
+      propertyPath: rightBS
       value: 
       objectReference: {fileID: 872049291}
     - target: {fileID: 2643382858275351233, guid: 91901c8866972144eaf994fe877b0028, type: 3}
