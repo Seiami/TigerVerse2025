@@ -9,6 +9,7 @@ using UnityEngine.Events;
 public class BeatManager : MonoBehaviour
 {
     [SerializeField] private float _bpm;
+    public float BPM => _bpm; //Public property to access BPM
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private Intervals[] _intervals;
     static int index = 0; //Static index to keep track of the current note being processed
@@ -44,6 +45,7 @@ public class BeatManager : MonoBehaviour
         }
     }
 }
+
 [System.Serializable]
 public class Intervals
 { //Interval = beat length

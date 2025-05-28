@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5923773155931969572}
   - component: {fileID: 5923773155931969579}
   - component: {fileID: 5923773155931969573}
+  - component: {fileID: 802918431472404523}
   m_Layer: 0
   m_Name: upArrow
   m_TagString: Untagged
@@ -121,3 +122,17 @@ CapsuleCollider:
   m_Height: 0.63
   m_Direction: 0
   m_Center: {x: 0, y: -0.0000001937151, z: 0}
+--- !u!114 &802918431472404523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5923773155931969576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c814cb1ba2668740af6123db004c84e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatManager: {fileID: 0}
+  hasStarted: 1

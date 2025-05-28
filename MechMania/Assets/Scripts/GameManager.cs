@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public AudioSource theMusic;
     public bool startPlaying; //Start music
-    public BeatScroller theBS; //Reference to BeatScroller script
+    //public BeatScroller theBS; //Reference to BeatScroller script
     public static GameManager instance;
 
     //Note score variables
@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
         if (!startPlaying) {
             if (Input.anyKeyDown) {
                 startPlaying = true;
-                theBS.hasStarted = true; //Start scrolling
+                //theBS.hasStarted = true; //Start scrolling
                 theMusic.Play(); //Start music
             }
         }

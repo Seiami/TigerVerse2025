@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 420212952157999557}
   - component: {fileID: 420212952157999578}
   - component: {fileID: 420212952157999556}
+  - component: {fileID: 3947356493765868117}
   m_Layer: 0
   m_Name: rightArrow
   m_TagString: Untagged
@@ -121,3 +122,17 @@ CapsuleCollider:
   m_Height: 0.63
   m_Direction: 0
   m_Center: {x: 0.0000004172325, y: 0, z: 0}
+--- !u!114 &3947356493765868117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420212952157999577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c814cb1ba2668740af6123db004c84e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatManager: {fileID: 0}
+  hasStarted: 1
