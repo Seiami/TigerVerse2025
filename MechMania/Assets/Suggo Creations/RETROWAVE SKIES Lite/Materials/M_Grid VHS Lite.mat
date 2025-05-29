@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6377978500662273637
+--- !u!114 &-3730482276549979947
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,38 +20,21 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hands Transparent
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Name: M_Grid VHS Lite
+  m_Shader: {fileID: -6465566751694194690, guid: 826bdbac23ec3064290838c236752c7d, type: 3}
   m_ValidKeywords:
-  - _RECEIVE_SHADOWS_OFF
-  - _SPECULARHIGHLIGHTS_OFF
-  - _SURFACE_TYPE_TRANSPARENT
+  - BOOLEAN_PREVENTSTARS_ON
   m_InvalidKeywords: []
-  m_LightmapFlags: 6
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - SHADOWCASTER
-  - DepthOnly
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Bump:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Cube:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -71,6 +54,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _GridTexture:
+        m_Texture: {fileID: 2800000, guid: 93420f2b832493a45ae0c78c42e30a71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -87,7 +74,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
+    - _SunMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -105,52 +92,66 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - BOOLEAN_PREVENTSTARS: 1
+    - BOOLEAN_WORLDSPACEUV: 1
+    - Vector1_7d421ef4d57f45e586330be25bfb5941: 10
+    - Vector1_a770b768a8ca40a9b814a01444e6b850: 2
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
+    - _CastShadows: 1
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DstBlend: 10
-    - _EnvironmentReflections: 1
-    - _FadeEnd: 0.5
-    - _FadeStart: 0.5
-    - _Fresnel: 0
+    - _DstBlend: 0
+    - _ENABLE_PARALLAX_EFFECT: 1
+    - _FogContrast: 5
+    - _FogHeight: 1
+    - _FogPower: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
-    - _GlossinessSource: 0
     - _GlossyReflections: 1
-    - _Intensity: 0.5
-    - _InvFade: 1
-    - _Metallic: 0
+    - _GridRotation: 0
+    - _Grid_Line_X_Width: 0.9
+    - _Grid_Line_Y_Width: 0.9
+    - _HorizonHeight: 0
+    - _HorizonStrength: 1
+    - _Metallic: 0.3
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OutlineWidth: 0.005
     - _Parallax: 0.02
+    - _Parallax_Distance: -0.3
+    - _Parallax_Offset: -0.3
+    - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReceiveShadows: 0
-    - _Shininess: 0.75
-    - _Smoothness: 0.75
-    - _SmoothnessSource: 1
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.91
     - _SmoothnessTextureChannel: 0
-    - _SpecSource: 0
-    - _SpecularHighlights: 0
-    - _SrcBlend: 5
-    - _Surface: 1
-    - _Thickness: 0.5
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StarDensity: 10
+    - _StarSize: 100
+    - _SunMaskSize: 0
+    - _SunMaskSpherize: 0
+    - _SunSize: 0.55
+    - _Surface: 0
+    - _USETEXTUREBOOL: 1
     - _UVSec: 0
     - _WorkflowMode: 1
-    - _ZWrite: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.72188926, b: 1, a: 0.23529412}
-    - _Color: {r: 0, g: 0.72188926, b: 1, a: 0.23529412}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MyColor: {r: 0.87058824, g: 0.87058824, b: 0.87058824, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ReflectColor: {r: 1, g: 0, b: 0, a: 0.5019608}
-    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _GridColor: {r: 0.36862746, g: 1.0901961, b: 1.4039216, a: 1}
+    - _GridSpeed: {r: 0, g: -0.1, b: 0, a: 0}
+    - _GroundColor: {r: 0.5457309, g: 0, b: 0.5471698, a: 1}
+    - _HorizonColor: {r: 0.42489558, g: 0.10746706, b: 0.6509434, a: 1}
+    - _Parallax_Color: {r: 0, g: 2.101961, b: 2.9960785, a: 1}
+    - _SkyColor: {r: 1, g: 0.15294117, b: 0, a: 1}
+    - _StarColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 0}
+    - _SunColorOne: {r: 0.9568628, g: 0.8235295, b: 0.2901961, a: 1}
+    - _SunColorTwo: {r: 0.8784314, g: 0.3960785, b: 0.6156863, a: 1}
+    - _Tiling: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
