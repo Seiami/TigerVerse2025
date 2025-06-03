@@ -11,19 +11,25 @@ using static NoteObject;
 public class ReadBeatMap : MonoBehaviour
 {
     public static ReadBeatMap Instance; //Singleton instance for easy access
-
+    [SerializeField] private string _beatMapName; //Name of the BeatMap file to read
     public int Count; //Counter for the number of notes read
     public List<List<float>> Notes { get; private set; } = new List<List<float>>(); //So we can access the notes from other scripts without modifying them directly/accidentally
-   
-    void Awake() => Instance = this; //Set the singleton instance
+
+    //void Awake() => Instance = this; //Set the singleton instance
 
 
     //[SerializeField] public NoteObject _noteObject; //Note prefab to spawn
     //public Transform _emitter; //Parent object to attach the notes to
 
+    ReadBeatMap Awake()
+    {
+        Read();
+        return Instance = this; 
+    } 
+
     void Start()
     {
-        Read(); //Call the Read method to read the BeatMap file
+        //Read(); //Call the Read method to read the BeatMap file
     }
 
     public void Read()
@@ -31,7 +37,7 @@ public class ReadBeatMap : MonoBehaviour
         Debug.Log("START: Reading File");
         Count = 0; //Reset the note count
 
-        string filePath = Application.streamingAssetsPath + "/BeatMaps/" + "TestBeatMap" + ".txt"; //Path to the BeatMap file
+        string filePath = Application.streamingAssetsPath + "/BeatMaps/" + _beatMapName + ".txt"; //Path to the BeatMap file
 
         List<string> lines = new List<string>();
 

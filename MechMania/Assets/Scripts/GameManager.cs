@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     public AudioSource theMusic;
     public bool startPlaying; //Start music
     //public BeatScroller theBS; //Reference to BeatScroller script
+    public ReadBeatMap readBeatMap;
     public static GameManager instance;
 
     //Note score variables
@@ -44,7 +45,9 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Score: 0";
         currentMultiplier = 1; //Don't want to be multiplying by 0!
 
-        totalNotes = FindObjectsByType<NoteObject>(FindObjectsSortMode.None).Length; //Counts all notes
+        readBeatMap = FindObjectOfType<ReadBeatMap>(); //Find the ReadBeatMap in the scene
+        totalNotes = readBeatMap.Count;
+        //totalNotes = FindObjectsByType<NoteObject>(FindObjectsSortMode.None).Length; //Counts all notes
     }
 
     // Update is called once per frame

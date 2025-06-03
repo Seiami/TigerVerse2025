@@ -12,8 +12,9 @@ public class BeatManager : MonoBehaviour
     public float BPM => _bpm; //Public property to access BPM
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private Intervals[] _intervals;
-    static int index = 0; //Static index to keep track of the current note being processed
+    //static int index = 0; //Static index to keep track of the current note being processed
     static bool processed = false;
+    int[] indices = new int[4]; //Array to store indices for each interval type
 
     private void Start()
     {
@@ -22,25 +23,54 @@ public class BeatManager : MonoBehaviour
             Debug.LogError("ERROR: Not creating beatmap.");
             return; //Exit if the BeatMap has not been read
         }
+
+        int z = 1; //Initialize z to 1, which represents the first note type
+        for (int y = 0; y < 4; y++)
+        {
+            indices[y] = ReadBeatMap.Instance.Notes.FindIndex(x => x[1] == z && x[0] >= 0); //Find the index of the next note that matches the current interval type
+            z++;
+        }
     }
 
     private void Update()
     {
-        if (processed) //Ensure note is printed before moving on to next
+        if (_audioSource == null || _intervals.Length == 0 || ReadBeatMap.Instance.Notes.Count == 0)
         {
-            index += 1; //Increment the index to process the next note
-            processed = false; //Reset processed flag
-        }
-        if (index >= ReadBeatMap.Instance.Count)
-        {
-            //index = 0; //Reset index if it exceeds the number of notes
+            Debug.LogError("ERROR: BeatManager is not set up correctly.");
+            return; //Exit if the AudioSource, intervals, or notes are not set up
         }
         else
         {
+            int index = 0;
             foreach (Intervals interval in _intervals)
             {
                 float sampledTime = (_audioSource.timeSamples / (_audioSource.clip.frequency * interval.GetIntervalLength(_bpm))); //Gets time elapsed in intervals
-                processed = interval.CheckForNewInterval(sampledTime, ReadBeatMap.Instance.Notes[index][1], ReadBeatMap.Instance.Notes[index][0]); //Check if we have crossed into a new interval
+                int iSampledTime = Mathf.FloorToInt(sampledTime); //Round down to the nearest whole number
+
+                if (indices[index] >= ReadBeatMap.Instance.Notes.Count) //Check if the index exceeds the number of notes
+                {
+                    //indices[index] = 0; //Reset index if it exceeds
+                }
+                else
+                {
+                    processed = interval.CheckForNewInterval(iSampledTime, ReadBeatMap.Instance.Notes[indices[index]][1], ReadBeatMap.Instance.Notes[indices[index]][0]); //Check if we have crossed into a new interval
+
+                    if (processed) //Ensure note is printed before moving on to next
+                    {
+                        int temp = ReadBeatMap.Instance.Notes.FindIndex(x => x[1] == interval._noteType && x[0] >= sampledTime); //Find the index of the next note that matches the current interval type
+                        if (temp != -1) //If a valid index is found
+                        {
+                            indices[index] = temp; //Update the index to the next note
+                        }
+                        else
+                        {
+                            indices[index] = ReadBeatMap.Instance.Notes.Count; //Set to count if no more notes are found
+                        }
+                        processed = false; //Reset processed flag
+                    }
+                }
+
+                index++;           
             }
         }
     }
@@ -52,7 +82,7 @@ public class Intervals
     [SerializeField] private float _steps; //Intervals (halfnotes, whole, etc?)
     [SerializeField] private UnityEvent _trigger;
     private int _lastInterval; //From last funct call
-     [SerializeField] private int _noteType; //Type of note
+     [SerializeField] public int _noteType; //Type of note
 
     public float GetIntervalLength(float bpm) //Gets length of current beat
     {
@@ -66,7 +96,7 @@ public class Intervals
         if (Mathf.FloorToInt((interval)) != _lastInterval) //Check every whole number --> we have passed to a new beat if the number has changed
         {
             _lastInterval = Mathf.FloorToInt((interval));
-            Debug.Log("CHECK: New Interval: " + _lastInterval + " vs. Emit Beat: " + (time + 1)); //Log the values for debugging
+            Debug.Log("CHECK: New Interval: " + _lastInterval + " vs. Emit Beat: " + (time + 1) + " -- " + _noteType); //Log the values for debugging
             //Debug.Log("Interval: " + interval);
             //Check if the note type matches the interval type
             if (_lastInterval == time + 1)
@@ -76,8 +106,8 @@ public class Intervals
                 {
                     Debug.Log("INVOKE: Spawn"); //Log the values for debugging
                     _trigger.Invoke(); //Invoke the action if it matches
+                    proc = true;
                 }
-                proc = true;
             }
         }
         return proc; //Return whether the note was processed
