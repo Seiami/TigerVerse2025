@@ -493,6 +493,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6193811485070194534, guid: 52b5d3d72555fe14fa79888560067422, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.057
+      objectReference: {fileID: 0}
+    - target: {fileID: 6193811485070194534, guid: 52b5d3d72555fe14fa79888560067422, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.058
+      objectReference: {fileID: 0}
+    - target: {fileID: 6193811485070194534, guid: 52b5d3d72555fe14fa79888560067422, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.149
+      objectReference: {fileID: 0}
     - target: {fileID: 6193811485814489317, guid: 52b5d3d72555fe14fa79888560067422, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
@@ -511,7 +523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6193811485814489320, guid: 52b5d3d72555fe14fa79888560067422, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: -9.52
       objectReference: {fileID: 0}
     - target: {fileID: 6193811485814489320, guid: 52b5d3d72555fe14fa79888560067422, type: 3}
       propertyPath: m_LocalRotation.w
