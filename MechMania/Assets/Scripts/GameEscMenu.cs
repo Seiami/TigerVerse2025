@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 //https://www.youtube.com/watch?v=6WfowlZ51i8
-public class GameStartMenu : MonoBehaviour
+public class GameEscMenu : MonoBehaviour
 {
     [Header("UI Pages")]
     public GameObject mainMenu;

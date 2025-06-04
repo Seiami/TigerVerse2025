@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 
+// /https://www.youtube.com/watch?v=6WfowlZ51i8
 public class SetOptionFromUI : MonoBehaviour
 {
     public Scrollbar volumeSlider;
@@ -27,7 +28,7 @@ public class SetOptionFromUI : MonoBehaviour
 
     public void SetTurnPlayerPref(int value)
     {
-        PlayerPrefs.SetInt("turn", value); 
+        PlayerPrefs.SetInt("turn", value);
         turnTypeFromPlayerPref.ApplyPlayerPref();
     }
 }

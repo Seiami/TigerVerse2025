@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI; //For UI elements
 
+//https://www.youtube.com/watch?v=cZzf1FQQFA0&list=PLLPYMaP0tgFKZj5VG82316B63eet0Pvsv
 public class GameManager : MonoBehaviour
 {
     public AudioSource theMusic;
@@ -53,21 +54,25 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!startPlaying) {
-            if (Input.anyKeyDown) {
+        if (!startPlaying)
+        {
+            if (Input.anyKeyDown)
+            {
                 startPlaying = true;
                 //theBS.hasStarted = true; //Start scrolling
                 theMusic.Play(); //Start music
             }
         }
-        else {
-            if (!theMusic.isPlaying && !resultsScreen.activeInHierarchy) { //Song must have ended (music finished and no results screen up yet)
+        else
+        {
+            if (!theMusic.isPlaying && !resultsScreen.activeInHierarchy)
+            { //Song must have ended (music finished and no results screen up yet)
                 resultsScreen.SetActive(true);
 
                 normalsText.text = normalHits.ToString();
                 goodsText.text = goodHits.ToString();
                 perfectsText.text = perfectHits.ToString();
-                missesText.text = perfectHits.ToString();
+                missesText.text = missedHits.ToString();
 
                 float totalHit = normalHits + goodHits + perfectHits;
                 float percentHit = (totalHit / totalNotes) * 100f;
@@ -75,17 +80,23 @@ public class GameManager : MonoBehaviour
 
                 string rankVal = "F";
 
-                if (percentHit > 40) {
+                if (percentHit > 40)
+                {
                     rankVal = "D";
-                    if (percentHit > 55) {
+                    if (percentHit > 55)
+                    {
                         rankVal = "C";
-                        if (percentHit > 70) {
+                        if (percentHit > 70)
+                        {
                             rankVal = "B";
-                            if (percentHit > 85) {
+                            if (percentHit > 85)
+                            {
                                 rankVal = "A";
-                                if (percentHit > 95) {
+                                if (percentHit > 95)
+                                {
                                     rankVal = "S";
-                                    if (percentHit > 99) {
+                                    if (percentHit > 99)
+                                    {
                                         rankVal = "SS";
                                     }
                                 }
@@ -99,13 +110,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void NoteHit() {
+    public void NoteHit()
+    {
         Debug.Log("Note Hit!");
 
         //Ensure we do not run over end of array, only increase multiplier if we have not reached highest mult
-        if (currentMultiplier - 1 < multiplierThresholds.Length) {
+        if (currentMultiplier - 1 < multiplierThresholds.Length)
+        {
             multiplierTracker++; //Increase the tracker for the multiplier
-            if (multiplierThresholds[currentMultiplier - 1] <= multiplierTracker) {
+            if (multiplierThresholds[currentMultiplier - 1] <= multiplierTracker)
+            {
                 multiplierTracker = 0;
                 currentMultiplier++; //Increase the multiplier
             }
@@ -117,25 +131,29 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Score: " + currentScore; //Update score text
     }
 
-    public void NormalHit() {
+    public void NormalHit()
+    {
         currentScore += scorePerNote * currentMultiplier;
         NoteHit();
         normalHits++;
     }
 
-    public void GoodHit() {
+    public void GoodHit()
+    {
         currentScore += scorePerGoodNote * currentMultiplier;
         NoteHit();
         goodHits++;
     }
 
-    public void PerfectHit() {
-        currentScore += scorePerPerfectNote * currentMultiplier; 
+    public void PerfectHit()
+    {
+        currentScore += scorePerPerfectNote * currentMultiplier;
         NoteHit();
         perfectHits++;
     }
 
-    public void NoteMissed() {
+    public void NoteMissed()
+    {
         Debug.Log("Note Missed!");
 
         //Reset multiplier
