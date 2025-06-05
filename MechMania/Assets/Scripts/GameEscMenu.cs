@@ -19,16 +19,13 @@ public class GameEscMenu : MonoBehaviour
 
     public List<Button> returnButtons;
 
-    [Header("Scene Transition Manager")]
-    public int sceneIndex = 1; // Default scene index to load
-
     // Start is called before the first frame update
     void Start()
     {
         EnableMainMenu();
 
         //Hook events
-        startButton.onClick.AddListener(StartGame);
+        startButton.onClick.AddListener(ReturnToStart);
         optionButton.onClick.AddListener(EnableOption);
         aboutButton.onClick.AddListener(EnableAbout);
         quitButton.onClick.AddListener(QuitGame);
@@ -45,10 +42,10 @@ public class GameEscMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void StartGame()
+    public void ReturnToStart()
     {
         HideAll();
-        SceneTransitionManager.singleton.GoToSceneAsync(sceneIndex);
+        SceneTransitionManager.singleton.GoToSceneAsync(0);
     }
 
     public void HideAll()
@@ -75,13 +72,5 @@ public class GameEscMenu : MonoBehaviour
         mainMenu.SetActive(false);
         options.SetActive(false);
         about.SetActive(true);
-    }
-
-    public void ChangeStartScene()
-    {
-        Dropdown option = options.GetComponentInChildren<Dropdown>();
-        int index = option.value;
-        sceneIndex = index;
-        Debug.Log("Change Start Scene to: " + sceneIndex);
     }
 }

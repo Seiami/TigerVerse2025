@@ -28,6 +28,7 @@ public class SetOptionFromUI : MonoBehaviour
 
     public void SetStartScene(int value)
     {
+        Debug.LogWarning("SetStartScene called with value: " + value);
         string strVal = value.ToString();
         //Find start menu script
         GameStartMenu startMenu = FindObjectOfType<GameStartMenu>();
