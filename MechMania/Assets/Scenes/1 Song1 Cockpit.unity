@@ -197,6 +197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NoteEmitter
       objectReference: {fileID: 0}
+    - target: {fileID: 5670923022074386685, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
+      propertyPath: notePrefab
+      value: 
+      objectReference: {fileID: 554754653127657985, guid: 6958988996a27e146ac9052083c32790, type: 3}
     - target: {fileID: 5670923022074386686, guid: 1f56fffdf81f8ca44aeff403a08e52bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.28000003
@@ -1251,6 +1255,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1254108262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2031807135463247783, guid: a4a4924f9f29e154cad20e298b2ec113, type: 3}
+  m_PrefabInstance: {fileID: 854906135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1254108268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254108262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19942b843ed69424599583b077fcfbad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1285229403
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,6 +1492,10 @@ PrefabInstance:
     - target: {fileID: 6221356658470965894, guid: d5b634c7027345d4e9c6f5a496e17464, type: 3}
       propertyPath: m_Name
       value: CanvasMainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221356658470965894, guid: d5b634c7027345d4e9c6f5a496e17464, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6221356658470965917, guid: d5b634c7027345d4e9c6f5a496e17464, type: 3}
       propertyPath: m_Pivot.x
