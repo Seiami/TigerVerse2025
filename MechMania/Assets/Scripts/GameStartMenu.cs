@@ -77,11 +77,18 @@ public class GameStartMenu : MonoBehaviour
         about.SetActive(true);
     }
 
-    public void ChangeStartScene()
+    public void ChangeStartScene(string index)
     {
-        Dropdown option = options.GetComponentInChildren<Dropdown>();
-        int index = option.value;
-        sceneIndex = index;
+        int sceneIndex = 1; // Default scene index
+        index = index.Substring(0, 1); // Get the first character
+        if (int.TryParse(index, out int parsedIndex))
+        {
+            sceneIndex = parsedIndex;
+        }
+        else
+        {
+            Debug.LogWarning("Invalid scene index provided: " + index);
+        }
         Debug.Log("Change Start Scene to: " + sceneIndex);
     }
 }

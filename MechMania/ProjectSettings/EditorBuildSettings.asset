@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/0 Start Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/1 Cockpit Scene.unity
+    path: Assets/Scenes/99 OG Cockpit Scene.unity
     guid: afbb26bc3a88fc74a90bf3177e98a633
   - enabled: 1
     path: Assets/Scenes/2 Testing Scene.unity

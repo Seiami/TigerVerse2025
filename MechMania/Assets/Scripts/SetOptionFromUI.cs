@@ -9,16 +9,16 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class SetOptionFromUI : MonoBehaviour
 {
     public Scrollbar volumeSlider;
-    public TMPro.TMP_Dropdown turnDropdown;
-    public SetTurnTypeFromPlayerPref turnTypeFromPlayerPref;
+    public TMPro.TMP_Dropdown songDropdown;
 
     private void Start()
     {
         volumeSlider.onValueChanged.AddListener(SetGlobalVolume);
-        turnDropdown.onValueChanged.AddListener(SetTurnPlayerPref);
+        songDropdown.onValueChanged.AddListener(SetStartScene);
 
-        if (PlayerPrefs.HasKey("turn"))
+        /*if (PlayerPrefs.HasKey("turn"))
             turnDropdown.SetValueWithoutNotify(PlayerPrefs.GetInt("turn"));
+        */
     }
 
     public void SetGlobalVolume(float value)
@@ -26,9 +26,18 @@ public class SetOptionFromUI : MonoBehaviour
         AudioListener.volume = value;
     }
 
-    public void SetTurnPlayerPref(int value)
+    public void SetStartScene(int value)
     {
-        PlayerPrefs.SetInt("turn", value);
-        turnTypeFromPlayerPref.ApplyPlayerPref();
+        string strVal = value.ToString();
+        //Find start menu script
+        GameStartMenu startMenu = FindObjectOfType<GameStartMenu>();
+        if (startMenu != null)
+        {
+            startMenu.ChangeStartScene(strVal);
+        }
+        else
+        {
+            Debug.LogWarning("StartMenu script not found in the scene.");
+        }
     }
 }
