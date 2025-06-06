@@ -79,11 +79,9 @@ public class GameStartMenu : MonoBehaviour
 
     public void ChangeStartScene(string index)
     {
-        int sceneIndex = 1; // Default scene index
-        index = index.Substring(0, 1); // Get the first character
         if (int.TryParse(index, out int parsedIndex))
         {
-            sceneIndex = parsedIndex;
+            sceneIndex = parsedIndex + 1;
         }
         else
         {

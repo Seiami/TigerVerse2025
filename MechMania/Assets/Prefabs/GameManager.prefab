@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theMusic: {fileID: 0}
   startPlaying: 0
-  theBS: {fileID: 0}
+  readBeatMap: {fileID: 0}
   currentScore: 0
   scorePerNote: 100
   scorePerGoodNote: 125
