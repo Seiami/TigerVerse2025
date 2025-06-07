@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 //Try to fix using https://www.youtube.com/watch?v=aBzpvUXibw0
 //Also try https://www.youtube.com/watch?v=XhghrKi12oA
@@ -17,5 +18,28 @@ public class SpawnNote : MonoBehaviour
         //note.AddComponent<Rigidbody>(); //Adds a rigidbody to the note
         note.transform.SetParent(spawnPoint);
 
+    }
+
+    /// Adds the note's OnButtonPress to the selectEntered event of the given XR Interactable GameObject.
+    public static void AddNoteToXRButton(NoteObject note)
+    {
+        ButtonType[] buttons = FindObjectsOfType<ButtonType>();
+        //var interactable = xrButtonObject.GetComponent<XRSimpleInteractable>();
+        if (buttons != null && note != null)
+        {
+            foreach (ButtonType button in buttons){
+                if (button.type == note.type)
+                {
+                    GameObject xrButtonObject = button.gameObject; //Get the GameObject of the button
+                    XRSimpleInteractable xrInteractable = xrButtonObject.GetComponent<XRSimpleInteractable>(); //Get the XR Interactable component from the button GameObject
+                    xrInteractable.selectEntered.AddListener((args) => note.OnButtonPress()); //Adds the note's OnButtonPress to the selectEntered event of the XR Interactable         
+                    return;
+                }
+            }
+        }
+        else
+        {
+            Debug.LogWarning("XR Interactable or NoteObject missing!");
+        }
     }
 }

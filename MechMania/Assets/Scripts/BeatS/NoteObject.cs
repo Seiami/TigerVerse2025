@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 //https://www.youtube.com/watch?v=cZzf1FQQFA0&list=PLLPYMaP0tgFKZj5VG82316B63eet0Pvsv
 public class NoteObject : MonoBehaviour
@@ -16,7 +17,7 @@ public class NoteObject : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        //FindObjectOfType<XRSimpleInteractable>().selectEntered.AddListener(OnButtonPress);
     }
 
     // Update is called once per frame

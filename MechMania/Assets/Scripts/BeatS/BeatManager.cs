@@ -96,15 +96,15 @@ public class Intervals
         if (Mathf.FloorToInt((interval)) != _lastInterval) //Check every whole number --> we have passed to a new beat if the number has changed
         {
             _lastInterval = Mathf.FloorToInt((interval));
-            Debug.Log("CHECK: New Interval: " + _lastInterval + " vs. Emit Beat: " + (time + 1) + " -- " + _noteType); //Log the values for debugging
+           // Debug.Log("CHECK: New Interval: " + _lastInterval + " vs. Emit Beat: " + (time + 1) + " -- " + _noteType); //Log the values for debugging
             //Debug.Log("Interval: " + interval);
             //Check if the note type matches the interval type
             if (_lastInterval == time + 1)
             {
-                Debug.Log("CHECK: Read Type: " + type + " vs. Emitter Type: " + _noteType); //Log the note type for debugging
+                //Debug.Log("CHECK: Read Type: " + type + " vs. Emitter Type: " + _noteType); //Log the note type for debugging
                 if (_noteType == type)
                 {
-                    Debug.Log("INVOKE: Spawn"); //Log the values for debugging
+                    //Debug.Log("INVOKE: Spawn"); //Log the values for debugging
                     _trigger.Invoke(); //Invoke the action if it matches
                     proc = true;
                 }
