@@ -9,7 +9,7 @@ public class NoteObject : MonoBehaviour
     public float time;
     public float type;
     public float duration;
-    private System.Action<SelectEnterEventArgs> cachedListener;
+    private UnityEngine.Events.UnityAction<SelectEnterEventArgs> cachedListener;
 
 
     //Hit effects
@@ -60,6 +60,7 @@ public class NoteObject : MonoBehaviour
                 Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation);
                 GameManager.instance.PerfectHit();
             }
+            RemoveNoteFromXRButton(); //Remove the note's OnButtonPress to the selectEntered event of the XR Interactable
             Destroy(gameObject);
         }
     }
