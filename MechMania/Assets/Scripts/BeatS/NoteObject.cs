@@ -9,6 +9,8 @@ public class NoteObject : MonoBehaviour
     public float time;
     public float type;
     public float duration;
+    private System.Action<SelectEnterEventArgs> cachedListener;
+
 
     //Hit effects
     public GameObject hitEffect, goodEffect, perfectEffect, missEffect;
@@ -68,6 +70,7 @@ public class NoteObject : MonoBehaviour
         if (other.tag == "Activator")
         {
             canBePressed = true;
+            AddNoteToXRButton(); //Adds the note's OnButtonPress to the selectEntered event of the XR Interactable
             Debug.Log("canBePressed set to true");
         }
     }
@@ -79,10 +82,65 @@ public class NoteObject : MonoBehaviour
         {
             canBePressed = false;
             Debug.Log("canBePressed set to false");
+            RemoveNoteFromXRButton(); //Remove the note's OnButtonPress to the selectEntered event of the XR Interactable
             GameManager.instance.NoteMissed();
             gameObject.SetActive(false);
             Instantiate(missEffect, transform.position, missEffect.transform.rotation);
             Destroy(gameObject);
+        }
+    }
+
+    /// Adds the note's OnButtonPress to the selectEntered event of the given XR Interactable GameObject.
+    public void AddNoteToXRButton()
+    {
+        //var interactable = xrButtonObject.GetComponent<XRSimpleInteractable>();
+        ButtonType[] buttons = FindObjectsOfType<ButtonType>();
+        if (buttons != null)
+        {
+            foreach (ButtonType button in buttons)
+            {
+                if (button.type == type)
+                {
+                    GameObject xrButtonObject = button.gameObject; //Get the GameObject of the button
+
+                    /*
+                    //XRSimpleInteractable xrInteractable = xrButtonObject.GetComponent<XRSimpleInteractable>(); //Get the XR Interactable component from the button GameObject
+                    xrButtonObject.GetComponent<XRSimpleInteractable>().selectEntered.AddListener((args) => note.OnButtonPress()); //Adds the note's OnButtonPress to the selectEntered event of the XR Interactable         
+                    */
+
+                    //In case of future object pooling and/or failure in removal
+                    if (cachedListener != null)
+                    {
+                        xrButtonObject.GetComponent<XRSimpleInteractable>().selectEntered.RemoveListener(cachedListener);
+                    }
+
+                    cachedListener = (args) => OnButtonPress();
+                    xrButtonObject.GetComponent<XRSimpleInteractable>().selectEntered.AddListener(cachedListener);
+                    break;
+                }
+            }
+        }
+        else
+        {
+            Debug.LogWarning("XR Interactable or NoteObject missing!");
+        }
+    }
+
+    public void RemoveNoteFromXRButton()
+    {
+        ButtonType[] buttons = FindObjectsOfType<ButtonType>();
+        if (buttons != null && cachedListener != null)
+        {
+            foreach (ButtonType button in buttons)
+            {
+                if (button.type == type)
+                {
+                    GameObject xrButtonObject = button.gameObject; //Get the GameObject of the button
+                    xrButtonObject.GetComponent<XRSimpleInteractable>().selectEntered.RemoveListener(cachedListener);
+                    cachedListener = null; // Clear the cached listener to prevent memory leaks
+                    break;
+                }
+            }
         }
     }
 
@@ -100,3 +158,4 @@ public class NoteObject : MonoBehaviour
         Instantiate(missEffect, transform.position, missEffect.transform.rotation);
     }*/
 }
+
