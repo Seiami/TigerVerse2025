@@ -3158,6 +3158,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4030081529425306632, guid: d5b634c7027345d4e9c6f5a496e17464, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030081529425306632, guid: d5b634c7027345d4e9c6f5a496e17464, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 28242424}
+    - target: {fileID: 4030081529425306632, guid: d5b634c7027345d4e9c6f5a496e17464, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeStartScene
+      objectReference: {fileID: 0}
     - target: {fileID: 6221356658231107280, guid: d5b634c7027345d4e9c6f5a496e17464, type: 3}
       propertyPath: m_IsActive
       value: 1
