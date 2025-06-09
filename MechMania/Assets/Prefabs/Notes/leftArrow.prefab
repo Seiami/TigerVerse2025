@@ -105,7 +105,7 @@ MonoBehaviour:
   type: 1
   duration: 0
   hitEffect: {fileID: 2444041650143705093, guid: 541febc3fdc50584eb7c06e291b349a1, type: 3}
-  goodEffect: {fileID: 1673896914507560609, guid: 3e81eae7ecd29354ba6e052f246dc46d, type: 3}
+  goodEffect: {fileID: 2348485589757215528, guid: 96d1a4e5ebb3a0748a63102d0485ab06, type: 3}
   perfectEffect: {fileID: 1673896914507560609, guid: 3e81eae7ecd29354ba6e052f246dc46d, type: 3}
   missEffect: {fileID: 3408423811888180484, guid: 4a01111d81e0bb042a0c0b02d45ed598, type: 3}
 --- !u!136 &954075168853231601
