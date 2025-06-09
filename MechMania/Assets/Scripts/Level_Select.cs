@@ -18,7 +18,7 @@ public class Level_Select : MonoBehaviour
             return;
         }
         song = 1;
-        buttonText.text = "Funky Lofi";
+        buttonText.text = "Funky Jazz";
 
     }
 }

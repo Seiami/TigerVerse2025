@@ -10,6 +10,18 @@ public class BackgroundManager : MonoBehaviour
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private Interval[] _intervals;
 
+    //private float buffer = 0;
+
+    private void Start()
+    {
+        Waiter();
+    }
+
+    IEnumerator Waiter()
+    {
+         yield return new WaitForSeconds (0.229167f);
+    }
+
     private void Update()
     {
 

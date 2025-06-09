@@ -8,7 +8,7 @@ public class PulseToTheBeat : MonoBehaviour
 
     [SerializeField] bool _useTestBeat;
     [SerializeField] float _pulseSize = 1.15f;
-    [SerializeField] float _returnSpeed = 5f;
+    [SerializeField] float _returnSpeed = 6f;
     private Vector3 _startSize;
 
     // Start is called before the first frame update

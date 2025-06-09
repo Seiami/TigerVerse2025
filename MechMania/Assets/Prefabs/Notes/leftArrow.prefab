@@ -104,10 +104,10 @@ MonoBehaviour:
   time: 0
   type: 1
   duration: 0
-  hitEffect: {fileID: 6082680379719167346, guid: 8f68296b63d5ef449a0fbf1b2f933ac8, type: 3}
-  goodEffect: {fileID: 5712714432564907792, guid: 0cc72e47fd89d7441bc6374bf7eda802, type: 3}
-  perfectEffect: {fileID: 8055622192535502907, guid: 42ae9de875fae064aacaf23d178abe1a, type: 3}
-  missEffect: {fileID: 5193273135181348045, guid: 49c4e26a46f9ce24f8c84b3446944dcd, type: 3}
+  hitEffect: {fileID: 2444041650143705093, guid: 541febc3fdc50584eb7c06e291b349a1, type: 3}
+  goodEffect: {fileID: 1673896914507560609, guid: 3e81eae7ecd29354ba6e052f246dc46d, type: 3}
+  perfectEffect: {fileID: 1673896914507560609, guid: 3e81eae7ecd29354ba6e052f246dc46d, type: 3}
+  missEffect: {fileID: 3408423811888180484, guid: 4a01111d81e0bb042a0c0b02d45ed598, type: 3}
 --- !u!136 &954075168853231601
 CapsuleCollider:
   m_ObjectHideFlags: 0
